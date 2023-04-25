@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/6a6ydoping/BookManager/controllers"
+	"github.com/6a6ydoping/LibraryTestTask/controllers"
 	"github.com/gorilla/mux"
 )
 
