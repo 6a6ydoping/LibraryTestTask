@@ -19,5 +19,5 @@ func Connect() {
 }
 
 func SyncDB() {
-	DB.AutoMigrate(&models.Book{}, &models.Reader{}, &models.Author{}, &models.BorrowedBooks{})
+	DB.AutoMigrate(&models.Book{}, &models.Reader{}, &models.Author{})
 }

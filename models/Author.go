@@ -5,4 +5,5 @@ type Author struct {
 	FullName       string
 	Alias          string
 	Specialization string
+	Books          []Book `gorm:"many2many:author_books;"`
 }
